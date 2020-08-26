@@ -6,13 +6,13 @@ function Header() {
     <div>
       <p
         style={{ background: "white", paddingLeft: "7rem" }}
-        className="font-bold text-4xl flex  text-left py-4 my-4"
+        className="font-bold text-2xl flex  text-left py-4 my-4"
       >
         <Typical
           loop={Infinity}
           wrapper="b"
           steps={[
-            "Get organised.",
+            "Be organised.",
             4000,
             "Plans?",
             4000,
