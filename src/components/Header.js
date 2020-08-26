@@ -1,25 +1,34 @@
 import React from "react";
-
-const titles = [
-  "Lets get organised.",
-  "Whats on today?",
-  "Get 💩 done!",
-  "Piece of 🎂",
-  "Finish that project!",
-  "Ez pz",
-  "Be productive.",
-];
-const toShow = titles[Math.floor(Math.random() * titles.length)];
+import Typical from "react-typical";
 
 function Header() {
   return (
     <div>
-      <h1
+      <p
         style={{ background: "white", paddingLeft: "2.5rem" }}
-        className="font-bold text-4xl flex justify-center text-center py-4 my-4"
+        className="font-bold text-4xl flex  text-left py-4 my-4 ml-12"
       >
-        {toShow}
-      </h1>
+        <Typical
+          loop={Infinity}
+          wrapper="b"
+          steps={[
+            "Lets get organised.",
+            4000,
+            "Plans for the day?",
+            4000,
+            "Lets get 💩 done.",
+            4000,
+            "That's a piece of 🎂",
+            4000,
+            "Finish that project.",
+            4000,
+            "This can't wait....",
+            4000,
+            "Lets be productive.",
+            4000,
+          ]}
+        />
+      </p>
     </div>
   );
 }
