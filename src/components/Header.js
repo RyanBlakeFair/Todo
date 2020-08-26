@@ -5,26 +5,26 @@ function Header() {
   return (
     <div>
       <p
-        style={{ background: "white", paddingLeft: "2.5rem" }}
-        className="font-bold text-4xl flex  text-left py-4 my-4 ml-12"
+        style={{ background: "white", paddingLeft: "7rem" }}
+        className="font-bold text-4xl flex  text-left py-4 my-4"
       >
         <Typical
           loop={Infinity}
           wrapper="b"
           steps={[
-            "Lets get organised.",
+            "Get organised.",
             4000,
-            "Plans for the day?",
+            "Plans?",
             4000,
-            "Lets get 💩 done.",
+            "Get 💩 done.",
             4000,
-            "That's a piece of 🎂",
+            "Piece of 🎂",
             4000,
-            "Finish that project.",
+            "Finish it.",
             4000,
-            "This can't wait....",
+            "Start now.",
             4000,
-            "Lets be productive.",
+            "Be productive.",
             4000,
           ]}
         />
