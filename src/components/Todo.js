@@ -30,7 +30,9 @@ function Todo({ todo, removeTodo, completeTodo }) {
         {todo.task}
       </li>
       <button className="px-3 py-2 bg-red-400" onClick={handleRemove}>
-        🗑️
+        <span role="img" aria-label="bin">
+          🗑️
+        </span>
       </button>
     </div>
   );

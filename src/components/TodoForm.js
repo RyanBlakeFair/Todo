@@ -37,7 +37,9 @@ function TodoForm({ addTodo }) {
           placeholder="What's next?"
         />
         <button className="bg-green-300 px-3 py-2 font-bold" type="submit">
-          ➕
+          <span role="img" aria-label="bin">
+            ➕
+          </span>
         </button>
       </form>
     </div>
