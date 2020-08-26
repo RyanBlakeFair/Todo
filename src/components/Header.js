@@ -6,7 +6,7 @@ function Header() {
     <div>
       <p
         style={{ background: "white", paddingLeft: "7rem" }}
-        className="font-bold text-2xl flex  text-left py-4 my-4"
+        className="font-bold text-3xl flex  text-left py-4 my-4"
       >
         <Typical
           loop={Infinity}
