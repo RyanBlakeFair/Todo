@@ -1,0 +1,18 @@
+body {
+  background-image: url("https://lh5.googleusercontent.com/proxy/3OsEBKiOLeXfEQTmq6QcgiNdsIrqoKTouAWAraMDeiONe8AGVr1ch1sDiw6gN0yb3AvLC6Eh9lnjs1lWbHmK6bHyAXVmfEViHJYKO3Q=s0-d");
+}
+
+ol,
+ul {
+  margin-bottom: 2rem;
+}
+
+.box {
+  zoom: 1;
+}
+
+@media (min-width: 2200px) {
+  .box {
+    zoom: 2;
+  }
+}
